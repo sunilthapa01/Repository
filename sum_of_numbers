@@ -1,0 +1,7 @@
+def sum_nos(no):
+    if no==0:
+        return 0
+    else:
+
+        return no + sum_nos(no-1)
+print(sum_nos(2))
